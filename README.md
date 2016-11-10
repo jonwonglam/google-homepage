@@ -20,9 +20,9 @@ This project does not include the voice icon in the search box, nor the "I'm fee
 
 ---
 
+### View the project on Github Pages
+[Link to google-homepage](https://wongslam.github.io/google-homepage/)
+
 ### Link to the Project on The Odin Project
 
-[Curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
-
-### View the project on Github Pages
-[Link](https://wongslam.github.io/google-homepage/)
+[Link to Curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
