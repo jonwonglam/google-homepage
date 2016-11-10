@@ -1,0 +1,133 @@
+/************************************
+ *  Header Styles
+ ***********************************/
+
+body {
+  font-family: arial, sans-serif;
+}
+
+header {
+  display: flex;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+ }
+
+a {
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 20px;
+  opacity: 0.75;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+header a:hover {
+  opacity: 1.0;
+}
+
+.words {
+  display: flex;
+  align-items: center;
+}
+
+.words a:hover {
+  text-decoration: underline;
+}
+
+.fa:not(.fa-bell) {
+  color: #000;
+  opacity: 0.75;
+}
+
+.fa-stack {
+  font-size: 90%;
+}
+
+.fa-bell {
+  font-size: 70%;
+}
+
+#profilePic {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  vertical-align: middle;
+}
+
+/************************************
+ *  Content Styles
+ ***********************************/
+
+.content {
+  clear: both;
+  text-align: center;
+}
+
+#logo {
+  height: 92px;
+  width: 272px;
+  padding-top: 150px;
+}
+
+form {
+  padding-top: 30px;
+}
+
+input {
+  border: 1px solid #d2d2d2;
+  width: 40%;
+  height: 38px;
+  padding-left: 10px;
+}
+
+input:hover {
+  border-color: #acacac;
+}
+
+input:focus {
+  border-color: #4488FA;
+  outline: none;
+}
+
+.searchBtns {
+  padding-top: 30px;
+}
+
+button {
+  box-sizing: border-box;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  color: #757575;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 16px;
+  margin-left: 5px;
+}
+
+button:hover {
+  border: 1px solid #ababab;
+}
+
+footer {
+  background-color: #f2f2f2;
+  line-height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.float-left, .float-right {
+  display: inline-block;
+}
+
+.float-right {
+  float: right;
+  margin-right: 20px;
+}
+
+.float-left {
+  margin-left: 30px;
+}
