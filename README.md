@@ -1,9 +1,9 @@
 ## HTML/CSS Project
 
 ### Overview
-This is the first project for the Odin Project. It will emulate the Google Homepage and the Goodle search results using HTML and CSS. This should be straitforward for a front-end developer, but good practice regardless! 
+This is the first project for the Odin Project. It will emulate the Google Homepage and the Goodle search results using HTML and CSS. This should be straitforward for a front-end developer, but good practice regardless!
 
---- 
+---
 
 ### Skills involved
 1. Two ways to move a div around on the page
@@ -15,8 +15,14 @@ This is the first project for the Odin Project. It will emulate the Google Homep
 7. Understand how to use classes and ids to target CSS at specific elements on the page
 8. Build a very basic form (even if it doesn't "go" anywhere)
 
+### Notes
+This project does not include the voice icon in the search box, nor the "I'm feeling lucky" animations. This is something I would like to come back to and add.
+
 ---
 
 ### Link to the Project on The Odin Project
 
 [Curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+
+### View the project on Github Pages
+[Link](https://wongslam.github.io/google-homepage/)
