@@ -104,11 +104,18 @@ button {
   font-size: 14px;
   padding: 10px 16px;
   margin-left: 5px;
+  outline: none;
+}
+
+button:focus:active {
+  outline: 0;
+  border-color: #4488FA;
 }
 
 button:hover {
-  border: 1px solid #ababab;
+  border-color: #ababab;
 }
+
 
 footer {
   background-color: #f2f2f2;
