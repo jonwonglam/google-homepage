@@ -1,0 +1,269 @@
+/************************************
+ *  Header Bar Styles
+ ***********************************/
+
+ body {
+   font-family: arial, sans-serif;
+ }
+
+ header {
+   background-color: #F1F1F1;
+   border: 1px solid #e3e3e3;
+   display: flex;
+   box-sizing: border-box;
+   max-height: 70px;
+   padding: 10px 15px;
+  }
+
+  #banner-logo {
+    width: auto;
+    height: 35px;
+    padding-top: 5px;
+  }
+
+  .search-box {
+    display: flex;
+  }
+
+  input {
+    border: 1px solid #d2d2d2;
+    width: 650px;
+    height: 38px;
+    padding-left: 10px;
+    margin-left: 20px;
+  }
+
+  input:hover {
+    border-color: #acacac;
+  }
+
+  input:focus {
+    border-color: #4488FA;
+    outline: none;
+  }
+
+  button {
+    box-sizing: border-box;
+    border: 1px solid #4488FA;
+    background-color: #4285F4;
+    color: #757575;
+    font-weight: bold;
+    font-size: 14px;
+    height: 42px;
+    width: 44px;
+    outline: none;
+  }
+
+  button:focus:active {
+    outline: 0;
+  }
+
+  button:hover {
+    background-color: #3c7be4;
+  }
+
+  .fa.white.fa-search {
+    color: #fff;
+  }
+
+  .pics {
+    position: absolute;
+    right: 10px;
+  }
+
+  .fa:not(.fa-inverse) {
+    color: #636363;
+  }
+
+  .fa-inverse {
+    color: #fff;
+  }
+
+/************************************
+ *  Navbar Styles
+ ***********************************/
+
+  nav {
+    min-height: 65px;
+    border-bottom: 1px solid #e3e3e3;
+  }
+
+  .container {
+    display: flex;
+    margin-left: 140px;
+  }
+
+ nav a {
+   color: #000;
+   font-size: 14px;
+   padding: 0 20px;
+   padding-top: 20px;
+   padding-bottom: 26px;
+   opacity: 0.5;
+   text-decoration: none;
+   vertical-align: middle;
+ }
+
+ nav a:first-child {
+   color: #4488FA;
+   padding-left: 8px;
+   padding-right: 8px;
+   font-weight: bold;
+   opacity: 1;
+   border-bottom: 3px solid #4488FA;
+ }
+
+ nav a:nth-child(2) {
+   padding-left: 26px;
+ }
+
+ nav a:hover {
+   opacity: 1;
+ }
+
+ /************************************
+  *  Result Styles
+  ***********************************/
+
+  .results {
+    margin-left: 150px;
+  }
+
+  .result {
+    padding-top: 20px;
+
+  }
+
+  .statistic {
+    font-size: 14px;
+    color: #7c7c7c;
+  }
+
+  a {
+    color: #1a0dab;
+    margin: 0;
+    text-decoration: none;
+  }
+
+  .result a {
+    font: normal 20px arial;
+  }
+
+  a:hover {
+    border-bottom: 1px solid #1a0dab;
+  }
+
+  h3 {
+    font: normal 16px arial;
+    color: #006621;
+    margin: 0;
+  }
+
+  .result p {
+    color: #545454;
+    line-height: 19px;
+    margin: 5px 0;
+    font-size: 14.5px;
+  }
+
+  .date {
+    font: normal 14px arial;
+    color: #7c7c7c;
+  }
+
+  .fa-caret-down {
+    color: #006621;
+  }
+
+/************************************
+ *  Related Search Styles
+***********************************/
+
+.related {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  margin-top: 15px;
+  padding-bottom: 30px;
+  margin-left: 150px;
+  max-width: 650px;
+}
+
+h1 {
+  font: normal 20px arial;
+  color: #7c7c7c;
+  margin-top: 25px;
+}
+
+table {
+  text-align: left;
+}
+
+th {
+  font-size: 15px;
+  color: #1a0dab;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+ header a:hover {
+   opacity: 1.0;
+ }
+
+
+ .words {
+   display: flex;
+   align-items: center;
+ }
+
+ .words a:hover {
+   text-decoration: underline;
+ }
+
+ #profilePic {
+   border-radius: 50%;
+   height: 35px;
+   width: 35px;
+   vertical-align: middle;
+ }
+
+ /************************************
+  *  Content Styles
+  ***********************************/
+
+ .content {
+   clear: both;
+   text-align: center;
+ }
+
+ form {
+   padding-top: 30px;
+ }
+
+ .searchBtns {
+   padding-top: 30px;
+ }
+
+
+
+
+ footer {
+   background-color: #f2f2f2;
+   line-height: 40px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+ }
+
+ .float-left, .float-right {
+   display: inline-block;
+ }
+
+ .float-right {
+   float: right;
+   margin-right: 20px;
+ }
+
+ .float-left {
+   margin-left: 30px;
+ }
